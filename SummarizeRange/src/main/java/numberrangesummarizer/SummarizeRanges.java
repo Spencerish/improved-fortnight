@@ -63,6 +63,6 @@ public class SummarizeRanges implements NumberRangeSummarizer{
     public static void main(String[] args){
 
         SummarizeRanges summary = new SummarizeRanges();
-        System.out.println(summary.summarizeCollection(summary.collect("7,   1   ,3,6,7,8,12,13,14,15,21,22,23,24,31")));
+        System.out.println(summary.summarizeCollection(summary.collect("1,3,6,7,8,12,13,14,15,21,22,23,24,31")));
     }
 }
